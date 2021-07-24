@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D25BA1026ABBC1800F2064E /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D25BA0E26ABBC1800F2064E /* Utils.cpp */; };
 		6D4C42D126A9B795008953CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D4C42D026A9B795008953CF /* main.cpp */; };
 		6D4C42DA26A9B8E3008953CF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4C42D926A9B8E3008953CF /* OpenGL.framework */; };
 		6D4C42DC26A9B903008953CF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4C42DB26A9B903008953CF /* CoreFoundation.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6D25BA0E26ABBC1800F2064E /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		6D25BA0F26ABBC1800F2064E /* Utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
 		6D4C42CD26A9B795008953CF /* opengl_demo1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opengl_demo1; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4C42D026A9B795008953CF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6D4C42D926A9B8E3008953CF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,8 @@
 				6D55D4F626A9D3700088B1E3 /* fragShader.glsl */,
 				6D4C42E426A9BF60008953CF /* opengl_demo1.entitlements */,
 				6D4C42D026A9B795008953CF /* main.cpp */,
+				6D25BA0E26ABBC1800F2064E /* Utils.cpp */,
+				6D25BA0F26ABBC1800F2064E /* Utils.hpp */,
 			);
 			path = opengl_demo1;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D4C42D126A9B795008953CF /* main.cpp in Sources */,
+				6D25BA1026ABBC1800F2064E /* Utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
